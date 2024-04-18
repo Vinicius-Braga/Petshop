@@ -6,7 +6,7 @@ public interface IClienteDAO {
 
     Integer register (Cliente cliente);
 
-    Integer consult (Cliente cliente);
+    Cliente consult (Cliente cliente);
 
     Integer update (Cliente cliente);
 
